@@ -13,6 +13,7 @@
   --grey-text-color: #666;
   --bg-color-1: #5a5a5a;
   --color-white: #eee;
+  --bluish-grey: #557;
 }
 
 body {
@@ -47,4 +48,12 @@ body {
   color: var(--color-white);
   border-radius: 6px;
   border: none;
+}
+
+#generate-otp-button:hover {
+  background-color: var(--bluish-grey);
+}
+
+#generate-otp-button:disabled:hover {
+  cursor: not-allowed;
 }
