@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --black-text-color: #222;
+  --grey-text-color: #666;
+  --bg-color-1: #5a5a5a;
+  --color-white: #eee;
+}
+
+body {
+  font-family: "Comic Relief", sans-serif;
+  color: var(--black-text-color);
+  text-align: center;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+#otp-title {
+  font-size: 2.2rem;
+}
+
+#otp-display,
+#otp-timer {
+  margin-top: 25px;
+}
+
+#otp-timer {
+  color: var(--grey-text-color);
+  font-size: 1.1rem;
+}
+
+#generate-otp-button {
+  margin-top: 25px;
+  padding: 0.6rem 1rem;
+  font-size: 1.2rem;
+  background-color: var(--bg-color-1);
+  color: var(--color-white);
+  border-radius: 6px;
+  border: none;
+}
